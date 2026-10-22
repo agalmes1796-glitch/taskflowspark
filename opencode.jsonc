@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+
+  // El agente principal del proyecto es el orquestador.
+  // Al abrir OpenCode en esta carpeta se usara por defecto.
+  "default_agent": "orquestador",
+
+  // Skills adicionales del proyecto (los IDs ya se descubren en .opencode/skills).
+  // Se dejan explicitadas para visibilidad en el inventario del proyecto.
+  "skills": ["./.opencode/skills"]
+}
